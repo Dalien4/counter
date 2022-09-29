@@ -1,0 +1,35 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.site {
+  font-family: sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+.site__titre {
+  font-size: 4rem;
+  text-align: center;
+}
+.site__compteur {
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0;
+}
+.site__bouton {
+  padding: 5px 15px;
+  font-size: 1.5rem;
+  margin: 0 5px;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.site__bouton:hover {
+  color: white;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
